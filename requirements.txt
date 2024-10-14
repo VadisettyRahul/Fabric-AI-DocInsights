@@ -1,0 +1,28 @@
+# Data Ingestion and Real-Time Streaming (Kafka)
+kafka-python==2.0.2
+confluent-kafka==2.1.1  # Optional, for Confluent Kafka integration
+
+# Anomaly Detection and Machine Learning
+scikit-learn==1.3.0
+numpy==1.24.2
+pandas==2.1.0
+
+# Azure SDK for Data Lake and Key Vault Integration
+azure-identity==1.13.0
+azure-storage-blob==12.17.0
+azure-keyvault-secrets==4.5.0
+
+# Power BI Data Refresh
+requests==2.31.0
+msal==1.21.0  # For Azure Active Directory authentication with Power BI API
+
+# Email Notifications and SMTP
+smtplib  # Included in Python standard library, no need to install
+email-validator==1.3.1  # Optional, to validate email addresses
+
+# Docker Integration
+docker==6.1.3
+
+# General Utilities and Logging
+python-dotenv==1.0.0  # For environment variable management
+loguru==0.7.0         # For better logging
